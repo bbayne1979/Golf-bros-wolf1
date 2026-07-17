@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html>
-<head>
+<html><head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Golf Bros Wolf</title>
@@ -10,38 +9,31 @@
 <div class="app">
 <header>
 <h1>🏌️ Golf Bros Wolf</h1>
-<p>Play. Compete. Win.</p>
+<p>Hole <span id="hole">1</span> of 18</p>
 </header>
 
-<section class="card">
-<h2>New Round</h2>
-<input placeholder="Player 1">
-<input placeholder="Player 2">
-<input placeholder="Player 3">
-<input placeholder="Player 4">
-<button>Start Round</button>
-</section>
-
-<section class="card">
-<h2>Leaderboard</h2>
-<ul>
-<li>Brandon <strong>0</strong></li>
-<li>Joey <strong>0</strong></li>
-<li>Jeff <strong>0</strong></li>
-<li>JJ <strong>0</strong></li>
-</ul>
-</section>
-
-<section class="card">
-<h2>Current Wolf</h2>
-<p>🐺 Brandon</p>
-<button>Choose Partner</button>
-<button>Lone Wolf</button>
-<button>Wolf Side Won</button>
-<button>Opponents Won</button>
-</section>
-
-<footer>Golf Bros Wolf v2.0</footer>
+<div class="card">
+<h2>🐺 Current Wolf</h2>
+<h3 id="wolf">Player 1</h3>
 </div>
-</body>
-</html>
+
+<div class="card">
+<h2>🏆 Live Scoreboard</h2>
+<table>
+<thead><tr><th>Player</th><th>Pts</th></tr></thead>
+<tbody id="board"></tbody>
+</table>
+</div>
+
+<div class="card">
+<h2>Choose Partner</h2>
+<div id="partners"></div>
+<button id="lone">🐺 Lone Wolf</button>
+</div>
+
+<div class="card">
+<button id="wolfWin">✅ Wolf Side Won</button>
+<button id="oppWin">⛳ Opponents Won</button>
+</div>
+<script src="app.js"></script>
+</body></html>
