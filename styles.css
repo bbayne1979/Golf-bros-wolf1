@@ -1,1 +1,4 @@
-body{font-family:-apple-system,sans-serif;background:#eef2f5;margin:0}.app{max-width:420px;margin:auto;padding:16px}.card{background:#fff;padding:16px;border-radius:12px;margin:12px 0}h1{background:#0b2d5c;color:#fff;padding:18px;border-radius:12px;text-align:center}button,input{width:100%;padding:12px;margin:6px 0;box-sizing:border-box}button{background:#198754;color:#fff;border:none;border-radius:10px}.hide{display:none}table{width:100%}td{padding:6px;border-bottom:1px solid #ddd}
+body{font-family:Arial,sans-serif;background:#0b2d5c;color:#fff;margin:0}.app{max-width:420px;margin:auto;padding:16px}
+input,button{width:100%;padding:12px;margin:6px 0;border-radius:10px;border:none;box-sizing:border-box}
+button{background:#1f8b4c;color:#fff;font-weight:bold}
+.card{background:#fff;color:#000;border-radius:10px;padding:8px}
