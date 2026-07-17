@@ -1,1 +1,47 @@
-<!doctype html><html><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><link rel='stylesheet' href='styles.css'></head><body><div class='wrap'><h1>🐺 Golf Bros Wolf</h1><div id='setup'><input id='p1' placeholder='Player 1'><input id='p2' placeholder='Player 2'><input id='p3' placeholder='Player 3'><input id='p4' placeholder='Player 4'><button id='start'>Start Round</button></div><div id='game' class='hidden'><h2 id='hole'></h2><div id='wolf'></div><div id='partners'></div><div id='winner' class='hidden'><button id='wolfWin'>Wolf Side Won</button><button id='otherWin'>Opponents Won</button></div><h3>Leaderboard</h3><ul id='leaderboard'></ul></div><script src='app.js'></script></body></html>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Golf Bros Wolf</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="app">
+<header>
+<h1>🏌️ Golf Bros Wolf</h1>
+<p>Play. Compete. Win.</p>
+</header>
+
+<section class="card">
+<h2>New Round</h2>
+<input placeholder="Player 1">
+<input placeholder="Player 2">
+<input placeholder="Player 3">
+<input placeholder="Player 4">
+<button>Start Round</button>
+</section>
+
+<section class="card">
+<h2>Leaderboard</h2>
+<ul>
+<li>Brandon <strong>0</strong></li>
+<li>Joey <strong>0</strong></li>
+<li>Jeff <strong>0</strong></li>
+<li>JJ <strong>0</strong></li>
+</ul>
+</section>
+
+<section class="card">
+<h2>Current Wolf</h2>
+<p>🐺 Brandon</p>
+<button>Choose Partner</button>
+<button>Lone Wolf</button>
+<button>Wolf Side Won</button>
+<button>Opponents Won</button>
+</section>
+
+<footer>Golf Bros Wolf v2.0</footer>
+</div>
+</body>
+</html>
