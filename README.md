@@ -1,11 +1,13 @@
-# Golf Bros Wolf v2.0
+Golf Bros Wolf v2.0 Combined Foundation
 
-This is the starting point for Golf Bros Wolf.
+Includes:
+- Home screen
+- New Round form
+- Hole display
+- Current Wolf card
+- Live scoreboard layout
+- Partner selection
+- Win buttons
 
-Current status:
-- Golf Bros branded UI skeleton
-- Ready for scoring engine
-- Placeholder leaderboard
-
-Next milestone:
-Implement the 18-hole running scoring engine.
+Next build:
+Implement the scoring engine.
