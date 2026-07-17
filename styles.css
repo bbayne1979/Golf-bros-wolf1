@@ -1,10 +1,1 @@
-
-body{margin:0;background:#eef2f5;font-family:-apple-system,BlinkMacSystemFont,sans-serif}
-.app{max-width:430px;margin:auto;padding:18px}
-.hero{background:#0b2d5c;color:#fff;border-radius:16px;padding:20px;text-align:center}
-.card{background:#fff;border-radius:14px;padding:16px;margin-top:16px;box-shadow:0 2px 8px rgba(0,0,0,.12)}
-button,input{width:100%;padding:14px;margin:8px 0;border-radius:12px;border:1px solid #ccc;box-sizing:border-box}
-button{background:#198754;color:#fff;border:none;font-weight:bold}
-table{width:100%;border-collapse:collapse}
-th,td{padding:10px;border-bottom:1px solid #ddd;text-align:left}
-footer{text-align:center;color:#666;padding:20px}
+body{font-family:-apple-system,sans-serif;background:#eef2f5;margin:0}.app{max-width:420px;margin:auto;padding:16px}.card{background:#fff;padding:16px;border-radius:12px;margin:12px 0}h1{background:#0b2d5c;color:#fff;padding:18px;border-radius:12px;text-align:center}button,input{width:100%;padding:12px;margin:6px 0;box-sizing:border-box}button{background:#198754;color:#fff;border:none;border-radius:10px}.hide{display:none}table{width:100%}td{padding:6px;border-bottom:1px solid #ddd}
